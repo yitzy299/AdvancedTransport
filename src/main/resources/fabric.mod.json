@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "advancedtransport",
+  "version": "1.0.0",
+
+  "name": "Advanced Transport",
+  "description": "Advanced Transport adds new ways of getting around your Minecraft worlds",
+  "authors": [
+    "yitzy299"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/yitzy299/advancedtransport"
+  },
+
+  "license": "MIT",
+  "icon": "assets/advancedtransport/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.yitzy299.advancedtransport.AdvancedTransport"
+    ]
+  },
+  "mixins": [
+    "advancedtransport.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
